@@ -4,6 +4,7 @@ body {
   color: #333333;
   margin: 0;
   padding: 20px;
+  position: relative;
 }
 
 .container {
@@ -83,4 +84,17 @@ strong {
   background: rgba(0,0,0,0.1);
   color: #555;
   mix-blend-mode: multiply;
+}
+
+.comeBackToHeader img{
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  bottom: 70px;
+  right: 24%;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
