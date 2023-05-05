@@ -80,12 +80,9 @@ strong {
   border-radius: 5px;
 }
 
-.menu li a:hover {
-  background: rgba(0,0,0,0.1);
-  color: #555;
-  mix-blend-mode: multiply;
+.comeBackToHeader{
+  transition: all 0.2s ease-in-out;
 }
-
 .comeBackToHeader img{
   padding: 10px;
   background: #fff;
@@ -98,3 +95,12 @@ strong {
   right: 24%;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
+
+.menu li a:hover, .comeBackToHeader:hover {
+  background: rgba(0,0,0,0.1);
+  color: #555;
+  mix-blend-mode: multiply;
+}
+
+
+
