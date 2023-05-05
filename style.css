@@ -83,6 +83,7 @@ strong {
 .comeBackToHeader{
   transition: all 0.2s ease-in-out;
 }
+
 .comeBackToHeader img{
   padding: 10px;
   background: #fff;
@@ -104,3 +105,7 @@ strong {
 
 
 
+.contatoLista li {
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
