@@ -103,7 +103,16 @@ strong {
   mix-blend-mode: multiply;
 }
 
+body::-webkit-scrollbar{
+  width: 5px;
+  background-color: #fefefe;
+  transition: all 0.2s ease-in-out;
+}
 
+body::-webkit-scrollbar-thumb{
+  background: #ababab;
+  border-radius: 30px;
+}
 
 .contatoLista li {
   margin-top: 2.5px;
