@@ -100,12 +100,12 @@ a{
   bottom: 70px;
   right: 4%;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  mix-blend-mode: multiply;
 }
 
 .menu li a:hover, .comeBackToHeader:hover {
   background: rgba(0,0,0,0.1);
   color: #555;
-  mix-blend-mode: multiply;
 }
 
 body::-webkit-scrollbar{
@@ -156,7 +156,7 @@ body::-webkit-scrollbar-thumb{
 
 .gridLinks{
   display: grid;
-  grid-template: "titulo link" auto/25% 75%;
+  grid-template: "titulo link" auto/10% 90%;
   gap: 20px;
 }
 
@@ -186,6 +186,9 @@ hr{
 @media (max-width:600px) {
   .gridContato{
     grid-template: "titulo contato" auto/25% 75%;
+  }
+  .gridLinks{
+    grid-template: "titulo link" auto/25% 75%;
   }
   .taj p{
     text-align: start;
