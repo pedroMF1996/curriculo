@@ -177,5 +177,8 @@ hr{
 }
 .taj{
   text-align: justify;
+}
+
+.taj p{
   margin: 10px 0;
 }
