@@ -145,36 +145,35 @@ body::-webkit-scrollbar-thumb{
   text-transform: uppercase;
 }
 
-.gridLinks{
-  display: grid;
-  grid-template: "titulo link" auto/70px auto;
-  gap: 10px;
-}
-
 .gridContato{
   display: grid;
-  grid-template: "titulo contato" auto/60px auto;
-  gap: 10px;
+  grid-template: "titulo contato" auto/10% 90%;
 }
 
 .contato{
   grid-area: contato;
-  text-wrap: wrap;
+}
+
+.gridLinks{
+  display: grid;
+  grid-template: "titulo link" auto/25% 75%;
+  gap: 20px;
 }
 
 .titulo{
   grid-area: titulo;
-  text-wrap: wrap;
+  width: fit-content;
 }
 
 .link{
   grid-area: link;
-  text-wrap: wrap;
+  word-wrap: break-word;
 }
 
 hr{
   margin: 0;
 }
+
 .taj{
   text-align: justify;
 }
@@ -182,4 +181,13 @@ hr{
 .taj p{
   margin: 10px 0;
   text-indent: 5px;
+}
+
+@media (max-width:600px) {
+  .gridContato{
+    grid-template: "titulo contato" auto/25% 75%;
+  }
+  .taj p{
+    text-align: start;
+  }
 }
